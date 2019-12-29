@@ -82,9 +82,9 @@ p.location {
 }
 
 
-/*
+/***********
 banner
-*/
+************/
 
 .navbar {
     margin-bottom: 0px;
@@ -236,9 +236,9 @@ banner
 }
 
 
-/*
+/*************
 services
-*/
+*************/
 
 .icon i {
     color: #0cb8b6;
@@ -358,9 +358,9 @@ img {
 }
 
 
-/*
+/************
 cta-1
-*/
+*************/
 
 .schedule-tab {
     background-color: #0CB8B6;
@@ -409,9 +409,9 @@ td {
 }
 
 
-/*
+/*************
 about
-*/
+*************/
 
 #about {
     background-color: rgba(238, 238, 238, 0.15);
@@ -454,9 +454,9 @@ about
 }
 
 
-/*
+/*************
 doctor team
-*/
+*************/
 
 .thumbnail {
     border-radius: 0px;
@@ -503,9 +503,9 @@ doctor team
 }
 
 
-/*
+/*************
 testimonial
-*/
+*************/
 
 #testimonial {
     background-color: #eee;
@@ -578,9 +578,9 @@ testimonial
 }
 
 
-/*
+/**************
 cta -2
-*/
+**************/
 
 #cta-2 {
     background-color: rgb(41, 48, 46);
@@ -611,9 +611,9 @@ cta -2
 }
 
 
-/*
+/**************
 contact us
-*/
+***************/
 
 .space {
     margin-top: 40px;
@@ -671,9 +671,9 @@ contact us
 }
 
 
-/*
+/***************
 footer
-*/
+****************/
 
 #footer {
     background-color: #325C6A;
