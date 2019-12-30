@@ -82,9 +82,9 @@ p.location {
 }
 
 
-/*
+/***********
 banner
-*/
+************/
 
 .navbar {
     margin-bottom: 0px;
@@ -236,9 +236,9 @@ banner
 }
 
 
-/*
+/*************
 services
-*/
+*************/
 
 .icon i {
     color: #0cb8b6;
@@ -358,9 +358,9 @@ img {
 }
 
 
-/*
-cta-1
-*/
+/************
+Schedule-tab
+*************/
 
 .schedule-tab {
     background-color: #0CB8B6;
@@ -409,9 +409,9 @@ td {
 }
 
 
-/*
+/*************
 about
-*/
+*************/
 
 #about {
     background-color: rgba(238, 238, 238, 0.15);
@@ -454,21 +454,31 @@ about
 }
 
 
-/*
+/*************
 doctor team
-*/
+*************/
 
 .thumbnail {
     border-radius: 0px;
 }
 
 .caption h3 {
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
 
 .caption p {
-    padding-bottom: 10px;
+    padding-bottom: 1px;
 }
+
+.team-img {
+    width: 100px;
+    height: 200px;
+}
+
+
+/******************
+Location of Hospitals
+******************/
 
 #venue {
     padding: 60px 0;
@@ -503,9 +513,70 @@ doctor team
 }
 
 
-/*
+/*****************
+Conected Hospitals
+*****************/
+
+#ConnectedHospitals {
+    padding: 60px 0;
+}
+
+#ConnectedHospitals . {
+    border: 1px solid #e0e5fa;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+#ConnectedHospitals .Hospitals:hover .hospitals-img img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#ConnectedHospitals .hospitals-img {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#ConnectedHospitals .hospitals-img img {
+    transition: 0.3s ease-in-out;
+}
+
+#ConnectedHospitals h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 0 20px;
+}
+
+#ConnectedHospitals a {
+    color: #152b79;
+}
+
+#ConnectedHospitals a:hover {
+    color: #f82249;
+}
+
+#ConnectedHospitals .stars {
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+#ConnectedHospitals .stars i {
+    color: #ffc31d;
+}
+
+#ConnectedHospitals p {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    color: #060c22;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+/*************
 testimonial
-*/
+*************/
 
 #testimonial {
     background-color: #eee;
@@ -578,9 +649,9 @@ testimonial
 }
 
 
-/*
+/**************
 cta -2
-*/
+**************/
 
 #cta-2 {
     background-color: rgb(41, 48, 46);
@@ -611,9 +682,9 @@ cta -2
 }
 
 
-/*
+/**************
 contact us
-*/
+***************/
 
 .space {
     margin-top: 40px;
@@ -671,9 +742,9 @@ contact us
 }
 
 
-/*
+/***************
 footer
-*/
+****************/
 
 #footer {
     background-color: #325C6A;
