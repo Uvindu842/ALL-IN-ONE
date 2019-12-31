@@ -518,7 +518,11 @@ Conected Hospitals
 *****************/
 
 #ConnectedHospitals {
+<<<<<<< Updated upstream
     padding: 60px 0;
+=======
+    padding: 55px 0;
+>>>>>>> Stashed changes
 }
 
 #ConnectedHospitals . {
