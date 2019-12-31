@@ -517,14 +517,6 @@ Location of Hospitals
 Conected Hospitals
 *****************/
 
-#ConnectedHospitals {
-<<<<<<< Updated upstream
-    padding: 60px 0;
-=======
-    padding: 55px 0;
->>>>>>> Stashed changes
-}
-
 #ConnectedHospitals . {
     border: 1px solid #e0e5fa;
     background: #fff;
@@ -577,6 +569,23 @@ Conected Hospitals
     font-size: 15px;
 }
 
+/*********************
+Locations of hospitals
+*********************/
+
+#venue .venue-gallery:hover  {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#venue .venue-gallery {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#venue .venue-gallery {
+    transition: 0.3s ease-in-out;
+}
 
 /*************
 testimonial
