@@ -502,6 +502,21 @@ Location of Hospitals
     padding-bottom: 60px;
 }
 
+#venue .venue-info:hover  {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#venue .venue-info {
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+#venue .venue-info {
+    transition: 0.3s ease-in-out;
+}
+
+
 #venue .venue-info:before {
     content: center;
     background: rgba(13, 20, 41, 0.8);
@@ -510,6 +525,20 @@ Location of Hospitals
     top: 0;
     left: 0;
     right: 0;
+}
+
+#venue .venue-gallery:hover  {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#venue .venue-gallery {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#venue .venue-gallery {
+    transition: 0.3s ease-in-out;
 }
 
 
@@ -567,24 +596,6 @@ Conected Hospitals
     color: #060c22;
     font-style: italic;
     font-size: 15px;
-}
-
-/*********************
-Locations of hospitals
-*********************/
-
-#venue .venue-gallery:hover  {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-#venue .venue-gallery {
-    overflow: hidden;
-    margin-bottom: 15px;
-}
-
-#venue .venue-gallery {
-    transition: 0.3s ease-in-out;
 }
 
 /*************
